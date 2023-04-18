@@ -1,0 +1,8 @@
+POST http://localhost:8080/jhello
+Content-Type: application/json
+
+{
+  "first_name": "Ali",
+  "last_name": "Kaviani"
+}
+###

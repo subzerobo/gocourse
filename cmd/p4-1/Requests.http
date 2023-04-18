@@ -1,0 +1,17 @@
+POST http://localhost:8000/jhello
+Content-Type: application/json
+
+{
+  "first_name": "Ali",
+  "last_name": "Kaviani"
+}
+###
+GET http://localhost:8000/v1/rooms
+###
+POST http://localhost:8000/v1/rooms
+Content-Type: application/json
+
+{
+  "room_name": "Ali"
+}
+###
